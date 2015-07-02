@@ -1,0 +1,36 @@
+<!--
+    CardView就是一个卡片样式的FrameLayout。
+
+    参数介绍：
+        app:cardBackgroundColor  :   背景颜色
+        app:cardCornerRadius    ：   设置圆角。
+        app:cardElevation       ：    阴影。
+        app:cardMaxElevation    ：       最大阴影。
+        app:cardPreventCornerOverlap  ： 在v20和之前的版本中添加内边距，
+                                    这个属性是为了防止卡片内容和边角的重叠。
+
+       app:cardUseCompatPadding  ：  设置内边距，v21+的版本和之前的版本仍旧具有一样的计算方式
+-->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/main_blue_light"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="5dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/id_textview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/main_white"
+        android:textSize="30sp" />
+
+</android.support.v7.widget.CardView>
