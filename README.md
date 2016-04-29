@@ -19,10 +19,17 @@
 > 在源码中学习Android，是有种身临其境的感觉的。
 
 > 整个Demo的源码我放在了GitHub上，谢谢star一下~
-> 在看源码过程中如果发现什么问题，请在留言，看到一定回复。
+> 在看源码过程中如果发现什么问题，请在博客留言，看到一定回复。
 
 > 源码地址：
 > [AndroidNewWidgetsDemo](https://github.com/git0pen/AndroidNewWidgetsDemo)
 
 > 博文地址：
 > [AndroidNewWidgetsDemo](http://sunjiajia.com/2015/07/02/android-new-widgets-demo/)
+
+
+**2016.04.29**
+
+* 更新所有兼容包到23.3.0
+* RecyclerView中的Item水平居中并match_parent
+* Fab添加了margin值，并更换了颜色

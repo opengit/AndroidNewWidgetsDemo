@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  *
+  ~  *  *
+  ~  *  *  * ===================================
+  ~  *  *  * Copyright (c) 2016.
+  ~  *  *  * 作者：安卓猴
+  ~  *  *  * 微博：@安卓猴
+  ~  *  *  * 博客：http://sunjiajia.com
+  ~  *  *  * Github：https://github.com/opengit
+  ~  *  *  *
+  ~  *  *  * 注意**：如果您使用或者修改该代码，请务必保留此版权信息。
+  ~  *  *  * ===================================
+  ~  *  *
+  ~  *  *
+  ~  *
+  ~  */
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sunjiajia.androidnewwidgetsdemo" >
+    package="com.sunjiajia.androidnewwidgetsdemo">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MyActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme">
+    <activity
+        android:name=".MyActivity"
+        android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
 
 </manifest>

@@ -1,33 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /*
+  ~  *
+  ~  *  *
+  ~  *  *  * ===================================
+  ~  *  *  * Copyright (c) 2016.
+  ~  *  *  * 作者：安卓猴
+  ~  *  *  * 微博：@安卓猴
+  ~  *  *  * 博客：http://sunjiajia.com
+  ~  *  *  * Github：https://github.com/opengit
+  ~  *  *  *
+  ~  *  *  * 注意**：如果您使用或者修改该代码，请务必保留此版权信息。
+  ~  *  *  * ===================================
+  ~  *  *
+  ~  *  *
+  ~  *
+  ~  */
+  -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="220dp"
     android:background="@drawable/ic_user_background"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
-    <com.sunjiajia.androidnewwidgetsdemo.view.RoundedImageView
-        android:id="@+id/id_header_face"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/author" />
+  <com.sunjiajia.androidnewwidgetsdemo.view.RoundedImageView
+      android:id="@+id/id_header_face"
+      android:layout_width="110dp"
+      android:layout_height="110dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/author"
+      />
 
-    <TextView
-        android:id="@+id/id_header_authorname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/header_author_name"
-        android:textColor="@android:color/black"
-        android:textSize="16sp" />
+  <TextView
+      android:id="@+id/id_header_authorname"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/header_author_name"
+      android:textColor="@android:color/black"
+      android:textSize="16sp"
+      />
 
-    <TextView
-        android:id="@+id/id_header_url"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/header_author_url"
-        android:textColor="@android:color/black"
-        android:textSize="18sp" />
+  <TextView
+      android:id="@+id/id_header_url"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/header_author_url"
+      android:textColor="@android:color/black"
+      android:textSize="18sp"
+      />
 
 
 </LinearLayout>

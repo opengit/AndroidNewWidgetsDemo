@@ -2,6 +2,26 @@
 
 
 <!--
+  ~ /*
+  ~  *
+  ~  *  *
+  ~  *  *  * ===================================
+  ~  *  *  * Copyright (c) 2016.
+  ~  *  *  * 作者：安卓猴
+  ~  *  *  * 微博：@安卓猴
+  ~  *  *  * 博客：http://sunjiajia.com
+  ~  *  *  * Github：https://github.com/opengit
+  ~  *  *  *
+  ~  *  *  * 注意**：如果您使用或者修改该代码，请务必保留此版权信息。
+  ~  *  *  * ===================================
+  ~  *  *
+  ~  *  *
+  ~  *
+  ~  */
+  -->
+
+
+<!--
 
 SwipeRefreshLayout是伟大的Google在v4包中给出的下拉刷新组件。
 
@@ -11,16 +31,19 @@ SwipeRefreshLayout是伟大的Google在v4包中给出的下拉刷新组件。
     android:id="@+id/id_swiperefreshlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
 
-    <!--
-            使用RecyclerView需要在build.gradle中添加
-           compile 'com.android.support:recyclerview-v7:22.2.0'
-    -->
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/id_recyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+  <!--
+          使用RecyclerView需要在build.gradle中添加
+         compile 'com.android.support:recyclerview-v7:23.3.0'
+  -->
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/id_recyclerview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:foregroundGravity="center"
+      />
 
 
 </android.support.v4.widget.SwipeRefreshLayout>
