@@ -33,3 +33,11 @@
 * 更新所有兼容包到23.3.0
 * RecyclerView中的Item水平居中并match_parent
 * Fab添加了margin值，并更换了颜色
+
+**2016.07.14**
+
+* 更新所有依赖包到最新版本
+
+## 微信公众号：Android奇想录（android_amazing）
+
+![Android奇想录](http://sunjiajia.com/img/qrcode_for_android_amazing.jpg)
