@@ -3,7 +3,7 @@
 伟大的Google为Android推出了一系列的兼容包，最新的就是Design Support Library了，这里我们结合v7和v4中的几个控件，来主要学习Design Support Library中的几个新控件！一个Demo学会用它们！
 
 ####效果动图GIF：
-![Design Support Library Demo](http://sunjiajia.com/img/201507/android-new-widgets-demo.gif)
+![Design Support Library Demo](https://blog.sunjiajia.com/img/201507/android-new-widgets-demo.gif)
 
 
 **通过本实例可以学习到以下内容：**
@@ -25,7 +25,7 @@
 > [AndroidNewWidgetsDemo](https://github.com/git0pen/AndroidNewWidgetsDemo)
 
 > 博文地址：
-> [AndroidNewWidgetsDemo](http://sunjiajia.com/2015/07/02/android-new-widgets-demo/)
+> [AndroidNewWidgetsDemo](https://blog.sunjiajia.com/2015/07/02/android-new-widgets-demo/)
 
 
 **2016.04.29**
@@ -40,4 +40,4 @@
 
 ## 微信公众号：Android奇想录（android_amazing）
 
-![Android奇想录](http://sunjiajia.com/img/qrcode_for_android_amazing.jpg)
+![Android奇想录](https://blog.sunjiajia.com/img/qrcode_for_android_amazing.jpg)
